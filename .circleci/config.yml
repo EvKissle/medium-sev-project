@@ -43,11 +43,3 @@ jobs:
       - store_artifacts:
           path: snyk_results.html
 
-
-
-workflows:
-  version: 2
-  build_and_test:
-    jobs:
-      - build:
-          context: SNYK
